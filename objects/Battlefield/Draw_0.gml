@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// drawing foreground and background grid (for testing purposes only) 
 /*
 for (var i = 1;i < grid_size+1; i++){
 	for (var j = 1; j < grid_size+1; j++){

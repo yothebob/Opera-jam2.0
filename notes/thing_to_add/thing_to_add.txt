@@ -1,0 +1,15 @@
+FIRST THINGS TO ADD - 
+- more realistic tilting for cockpit
+- laser tilting/elongation
+
+
+
+things to add - 
+- shooting back at enemies
+- add enemy ships
+- add endless mode (needs to get progressively harder)
+- different type of laser shots 
+- story mode
+- add additional space debris to avoid
+
+Bugs to fix - 

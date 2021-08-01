@@ -1,13 +1,17 @@
 {
   "resources": [
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":1,},
+    {"id":{"name":"BasicEnemy","path":"objects/BasicEnemy/BasicEnemy.yy",},"order":4,},
     {"id":{"name":"put_in_foreground","path":"scripts/put_in_foreground/put_in_foreground.yy",},"order":0,},
+    {"id":{"name":"thing_to_add","path":"notes/thing_to_add/thing_to_add.yy",},"order":0,},
     {"id":{"name":"bg_stars","path":"sprites/bg_stars/bg_stars.yy",},"order":2,},
     {"id":{"name":"Battlefield","path":"objects/Battlefield/Battlefield.yy",},"order":0,},
     {"id":{"name":"PlayerShip","path":"objects/PlayerShip/PlayerShip.yy",},"order":1,},
     {"id":{"name":"Laser","path":"objects/Laser/Laser.yy",},"order":2,},
     {"id":{"name":"spr_player_ship","path":"sprites/spr_player_ship/spr_player_ship.yy",},"order":0,},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":3,},
     {"id":{"name":"StarParticles","path":"objects/StarParticles/StarParticles.yy",},"order":3,},
+    {"id":{"name":"find_direction","path":"scripts/find_direction/find_direction.yy",},"order":2,},
     {"id":{"name":"put_in_background","path":"scripts/put_in_background/put_in_background.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
