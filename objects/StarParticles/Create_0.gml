@@ -27,7 +27,7 @@ pt_emit = part_emitter_create(part_star);
 player_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
 x = player_location[0];
 y = player_location[1];
-speed = 6;
+speed = 2;
 //particle creation on alarm timer
 alarm[0] = 1;
 

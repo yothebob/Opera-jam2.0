@@ -6,3 +6,4 @@ image_blend = choose(c_aqua,c_yellow,c_fuchsia,c_maroon,c_green,c_purple,c_lime,
 move_to_point = [];
 laser_cell = []; 
 starting_point = [];
+parent = 0;
