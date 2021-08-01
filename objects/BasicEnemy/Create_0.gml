@@ -5,7 +5,7 @@ x = enemy_position[0];
 y = enemy_position[1];
 
 depth = 100;
-enemy_speed = 4;
+enemy_speed = 3.25;
 
 //shoot lasers
 shoot = 0;

@@ -13,8 +13,8 @@ if round(x) != round(enemy_position[0]) and round(y) != round(enemy_position[1])
 }
 
 //shooting
-if shoot >= 5{	
-		with (instance_create_depth(enemy_position[0],enemy_position[1],1,Laser)){
+if shoot >= 80{	
+		with (instance_create_depth(x,y,1,Laser)){
 			parent = other.id;
 			laser_cell = [other.enemy_cell[0],other.enemy_cell[1]];
 			move_to_point = put_in_foreground(laser_cell[0],laser_cell[1]);
@@ -25,7 +25,14 @@ if shoot >= 5{
 }
 
 //moving
-/*
+
 if move >=20{
-	if batt
+	var player_cell = coordinates_to_foreground_cell(PlayerShip.x,PlayerShip.y)
+	if player_cell[0] != enemy_cell[0] {
+		enemy_cell[0] -= sign(enemy_cell[0] - player_cell[0]);
+	}
+	if player_cell[1] != enemy_cell[1]{
+		enemy_cell[1] -= sign(enemy_cell[1] - player_cell[1])
+	}
+	move = 0;
 }

@@ -1,9 +1,10 @@
-z_speed = 0;
-z_growth = .1;
-image_xscale = .1;
-image_yscale = .1;
-image_blend = choose(c_aqua,c_yellow,c_fuchsia,c_maroon,c_green,c_purple,c_lime,c_teal);
+z_speed = 12;
+z_growth = .001;
+image_xscale = .005;
+image_yscale = .005;
+//image_blend = choose(c_aqua,c_yellow,c_fuchsia,c_maroon,c_green,c_purple,c_lime,c_teal);
 move_to_point = [];
 laser_cell = []; 
 starting_point = [];
 parent = 0;
+hit_player = 2.75;

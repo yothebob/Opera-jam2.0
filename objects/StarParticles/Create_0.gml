@@ -23,6 +23,23 @@ part_type_life(star_3d_little,50,100);
 
 pt_emit = part_emitter_create(part_star);
 
+space_dust_reds = part_type_create();
+part_type_shape(space_dust_reds,pt_shape_cloud);
+part_type_size(space_dust_reds,0,1,.05,0);
+part_type_speed(space_dust_reds,0,1.5,.01,0);
+part_type_color3(space_dust_reds,c_purple,c_maroon,c_fuchsia);
+part_type_alpha3(space_dust_reds,0,.4,.1);
+part_type_direction(space_dust_reds,0,360,0,0);
+part_type_life(space_dust_reds,300,600);
+
+space_dust_blues = part_type_create();
+part_type_shape(space_dust_blues,pt_shape_cloud);
+part_type_size(space_dust_blues,0,1,.05,0);
+part_type_speed(space_dust_blues,0,1.5,.01,0);
+part_type_color3(space_dust_blues,c_purple,c_navy,c_blue);
+part_type_alpha3(space_dust_blues,0,.3,.1);
+part_type_direction(space_dust_blues,0,360,0,0);
+part_type_life(space_dust_blues,300,600);
 
 player_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
 x = player_location[0];
@@ -30,4 +47,5 @@ y = player_location[1];
 speed = 2;
 //particle creation on alarm timer
 alarm[0] = 1;
+alarm[1] = 1;
 

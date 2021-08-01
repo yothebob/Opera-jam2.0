@@ -5,6 +5,7 @@
     {"id":{"name":"put_in_foreground","path":"scripts/put_in_foreground/put_in_foreground.yy",},"order":0,},
     {"id":{"name":"thing_to_add","path":"notes/thing_to_add/thing_to_add.yy",},"order":0,},
     {"id":{"name":"bg_stars","path":"sprites/bg_stars/bg_stars.yy",},"order":2,},
+    {"id":{"name":"BasicEnemySpawner","path":"objects/BasicEnemySpawner/BasicEnemySpawner.yy",},"order":5,},
     {"id":{"name":"Battlefield","path":"objects/Battlefield/Battlefield.yy",},"order":0,},
     {"id":{"name":"PlayerShip","path":"objects/PlayerShip/PlayerShip.yy",},"order":1,},
     {"id":{"name":"Laser","path":"objects/Laser/Laser.yy",},"order":2,},
