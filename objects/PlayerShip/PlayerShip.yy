@@ -4,7 +4,7 @@
     "path": "sprites/spr_player_ship/spr_player_ship.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

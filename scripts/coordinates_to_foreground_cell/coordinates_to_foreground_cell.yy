@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "find_direction",
+  "name": "coordinates_to_foreground_cell",
   "tags": [],
   "resourceType": "GMScript",
 }
