@@ -1,5 +1,5 @@
 // number of cells
-grid_size = 26;
+grid_size = 16;
 
 // padding so game does not take up entire screen
 padding = 1000;

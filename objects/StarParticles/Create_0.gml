@@ -41,6 +41,15 @@ part_type_alpha3(space_dust_blues,0,.3,.1);
 part_type_direction(space_dust_blues,0,360,0,0);
 part_type_life(space_dust_blues,300,600);
 
+space_dust_whites = part_type_create();
+part_type_shape(space_dust_whites,pt_shape_cloud);
+part_type_size(space_dust_whites,0,.6,.05,0);
+part_type_speed(space_dust_whites,0,1.5,.01,0);
+part_type_color3(space_dust_whites,c_gray,c_ltgray,c_dkgray);
+part_type_alpha3(space_dust_whites,0,.2,.1);
+part_type_direction(space_dust_whites,0,360,0,0);
+part_type_life(space_dust_whites,300,600);
+
 player_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
 x = player_location[0];
 y = player_location[1];

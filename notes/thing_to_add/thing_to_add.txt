@@ -1,5 +1,4 @@
 FIRST THINGS TO ADD - 
-- more realistic tilting for cockpit
 - laser tilting/elongation
 
 
@@ -11,5 +10,9 @@ things to add -
 - different type of laser shots 
 - story mode
 - add additional space debris to avoid
+- enemies explode when shooting (Maybe leave space debris to avoid?)
+- 
 
 Bugs to fix - 
+enemy moves jerky when close (moving cell to cell)
+- enemy shooting lags behind enemy movement

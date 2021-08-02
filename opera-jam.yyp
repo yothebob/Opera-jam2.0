@@ -14,6 +14,7 @@
     {"id":{"name":"StarParticles","path":"objects/StarParticles/StarParticles.yy",},"order":3,},
     {"id":{"name":"put_in_background","path":"scripts/put_in_background/put_in_background.yy",},"order":1,},
     {"id":{"name":"coordinates_to_foreground_cell","path":"scripts/coordinates_to_foreground_cell/coordinates_to_foreground_cell.yy",},"order":2,},
+    {"id":{"name":"coordinates_to_background_cell","path":"scripts/coordinates_to_background_cell/coordinates_to_background_cell.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
