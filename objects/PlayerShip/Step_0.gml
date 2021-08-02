@@ -32,13 +32,14 @@ if cooldown > 0{cooldown--};
 
 if keyboard_check(vk_space) and cooldown <= 0{
 	cooldown = 10;
-	with (instance_create_depth(x,y+30,1,Laser)){
+	with (instance_create_depth(x,y+60,1,Laser)){
 			parent = PlayerShip;
 			laser_cell = [other.player_foreground_cell[0],other.player_foreground_cell[1]];
+			bullet_offset = 3;
 			move_to_point = put_in_background(laser_cell[0],laser_cell[1]);
 			starting_point = put_in_foreground(laser_cell[0],laser_cell[1]);
 			target = BasicEnemy;
-			hit_target = .1;
+			hit_target = .05;
 			image_xscale = 2;
 			image_yscale = 2;
 			laser_color = c_lime;

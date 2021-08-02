@@ -5,7 +5,7 @@ image_xscale = .005;
 image_yscale = .005;
 laser_color = c_white;
 
-
+bullet_offset = 0;
 
 //image_blend = choose(c_aqua,c_yellow,c_fuchsia,c_maroon,c_green,c_purple,c_lime,c_teal);
 

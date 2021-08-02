@@ -28,14 +28,13 @@ if shoot >= 80{
 var player_cell = coordinates_to_foreground_cell(PlayerShip.x,PlayerShip.y)
 var get_cell = coordinates_to_background_cell(x,y);
 if player_cell[0] != enemy_cell[0] {
-	//enemy_cell[0] -= sign(enemy_cell[0] - player_cell[0]);
 	enemy_cell[0] = get_cell[0] 
 }
 if player_cell[1] != enemy_cell[1]{
 	enemy_cell[1] = get_cell[1];
-	//enemy_cell[1] -= sign(enemy_cell[1] - player_cell[1])
 }
 
+
 if hits > 1{
-	instance_destroy();
+	id.image_speed = 1;
 }
