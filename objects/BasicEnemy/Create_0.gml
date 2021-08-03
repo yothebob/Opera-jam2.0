@@ -1,5 +1,5 @@
-enemy_cell = [ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2)];
-enemy_position = put_in_background(enemy_cell[0],enemy_cell[1]);
+instance_cell = [ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2)];
+enemy_position = put_in_background(instance_cell[0],instance_cell[1]);
 
 image_speed = 0;
 x = enemy_position[0];

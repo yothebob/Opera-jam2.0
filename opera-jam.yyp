@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":1,},
     {"id":{"name":"BasicEnemy","path":"objects/BasicEnemy/BasicEnemy.yy",},"order":4,},
+    {"id":{"name":"PlayerLaser","path":"objects/PlayerLaser/PlayerLaser.yy",},"order":6,},
     {"id":{"name":"put_in_foreground","path":"scripts/put_in_foreground/put_in_foreground.yy",},"order":0,},
     {"id":{"name":"thing_to_add","path":"notes/thing_to_add/thing_to_add.yy",},"order":0,},
     {"id":{"name":"bg_stars","path":"sprites/bg_stars/bg_stars.yy",},"order":2,},
