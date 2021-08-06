@@ -1,8 +1,6 @@
 spawn += irandom(1);
 
-if spawn == 120{
+if spawn == spawn_rate{
 	spawn = 0;
-	with(instance_create_depth(x,y,-1,BasicEnemy)){
-		instance_cell = [irandom(Battlefield.grid_size),irandom(Battlefield.grid_size)];
-	}
+	instance_create_depth(irandom_range(x-300,x+300),irandom_range(y-300,y+300),-1,BasicEnemy);
 }

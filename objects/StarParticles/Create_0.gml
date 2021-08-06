@@ -36,7 +36,7 @@ space_dust_blues = part_type_create();
 part_type_shape(space_dust_blues,pt_shape_cloud);
 part_type_size(space_dust_blues,0,1,.05,0);
 part_type_speed(space_dust_blues,0,1.5,.01,0);
-part_type_color3(space_dust_blues,c_purple,c_navy,c_blue);
+part_type_color3(space_dust_blues,c_purple,c_teal,c_blue);
 part_type_alpha3(space_dust_blues,0,.3,.1);
 part_type_direction(space_dust_blues,0,360,0,0);
 part_type_life(space_dust_blues,300,600);

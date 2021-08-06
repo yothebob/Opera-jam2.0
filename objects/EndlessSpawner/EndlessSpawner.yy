@@ -28,7 +28,7 @@
     "path": "folders/Objects/Spawners.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BasicEnemySpawner",
+  "name": "EndlessSpawner",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_laser",
-    "path": "sprites/spr_laser/spr_laser.yy",
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Mechanics",
+    "path": "folders/Objects/Mechanics.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Laser",
+  "name": "Button",
   "tags": [],
   "resourceType": "GMObject",
 }
