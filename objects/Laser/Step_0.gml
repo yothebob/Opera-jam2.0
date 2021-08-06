@@ -37,7 +37,7 @@ if id.laser_cell[0] != target_cell[0] or id.laser_cell[1] != target_cell[1] and 
 //hitting the player
 if image_xscale > hit_target and image_xscale < hit_target + .15{
 	if id.laser_cell[0] == target_cell[0] and id.laser_cell[1] == target_cell[1] and instance_exists(target){
-		target.hits += 1;
+		target.hits -= 1;
 		instance_destroy();
 	}else{
 		instance_destroy();

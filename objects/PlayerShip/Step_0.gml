@@ -49,4 +49,4 @@ if keyboard_check(vk_space) and cooldown <= 0{
 		}
 }
 
-if hits > 3{game_restart();}
+if hits < 0{highscore_add(get_string("Name?",""),score); score = 0; room_goto(rm_menu);}

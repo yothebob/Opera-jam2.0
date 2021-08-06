@@ -11,4 +11,4 @@ enemy_speed = 3.25;
 //shoot lasers
 shoot = 0;
 move = 0;
-hits = 0;
+hits = 1;

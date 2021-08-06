@@ -35,6 +35,6 @@ if player_cell[1] != enemy_cell[1]{
 }
 
 
-if hits > 1{
+if hits < 0{
 	id.image_speed = 1;
 }

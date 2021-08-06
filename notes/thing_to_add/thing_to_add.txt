@@ -1,18 +1,20 @@
-FIRST THINGS TO ADD - 
-- laser tilting/elongation
+THINGS TO DO!!! - IN ORDER - ish
+- DRAWINGS!!! (Cockpit, Enemy ships, 2nd player ship, explosions)
+- add highscore board
+- SOUNDS!!! (laser, low health alarm, background music, being hit)
+- add PVP
+- add sound adjustment to settings menu
+- add resolution adjustment or mobile
+- fix Shooting bug!!!!!
 
 
 
-things to add - 
-- shooting back at enemies
-- add enemy ships
-- add endless mode (needs to get progressively harder)
+
+
+
+be nice to have - 
 - different type of laser shots 
 - story mode
-- add additional space debris to avoid
-- enemies explode when shooting (Maybe leave space debris to avoid?)
+- add additional space debris/enemy ships to avoid
 - 
 
-Bugs to fix - 
-enemy moves jerky when close (moving cell to cell)
-- enemy shooting lags behind enemy movement
