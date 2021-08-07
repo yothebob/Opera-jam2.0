@@ -50,10 +50,17 @@ part_type_alpha3(space_dust_whites,0,.2,.1);
 part_type_direction(space_dust_whites,0,360,0,0);
 part_type_life(space_dust_whites,300,600);
 
-player_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
-x = player_location[0];
-y = player_location[1];
-speed = 2;
+
+//following the center of the background
+if room == rm_space{
+	particle_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
+	x = particle_location[0];
+	y = particle_location[1];
+	speed = 2;
+}else{
+	particle_location = [x,y];
+}
+
 //particle creation on alarm timer
 alarm[0] = 1;
 alarm[1] = 1;

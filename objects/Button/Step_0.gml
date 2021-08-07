@@ -24,6 +24,12 @@ switch (button_event){
 			room_goto(rm_highscore);
 		}
 		break;
+	case "Coop":
+		button_label = "Co-op";
+		if mouse_check_button_pressed(mb_left) and place_meeting(x,y,Mouse)or selected and keyboard_check_pressed(vk_enter){
+			room_goto(rm_pvp);
+		}
+		break;
 }
 
 
@@ -39,8 +45,8 @@ if place_meeting(x,y,ButtonSelector){
 
 // button gets alittle bigger when mouse hovering or selected
 if place_meeting(x,y,Mouse) or selected{
-	image_xscale = 1.1;
-	image_yscale = 1.1;
+	image_xscale = 1.3;
+	image_yscale = 1.3;
 }else{
 	image_xscale = 1;
 	image_yscale = 1;
