@@ -1,7 +1,6 @@
 THINGS TO DO!!! - IN ORDER - ish
 - DRAWINGS!!! (Cockpit, Enemy ships, 2nd player ship, explosions)
-- add highscore board
-- SOUNDS!!! (laser, low health alarm, background music, being hit)
+- SOUNDS!!! ( background music, being hit)
 - add PVP
 - add sound adjustment to settings menu
 - add resolution adjustment or mobile

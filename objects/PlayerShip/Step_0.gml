@@ -1,11 +1,13 @@
 score += 1;
 
+
+
 //player tilting
 image_angle = tilt/2;
-
 if tilt > 0{
 	tilt -= 1;
 }else if tilt < 0{tilt += 1;}
+
 
 
 //player movement
@@ -29,9 +31,10 @@ if keyboard_check(ord("D")) and player_foreground_cell[0] < Battlefield.grid_siz
 }
 
 
-if cooldown > 0{cooldown--};
-//shooting
 
+
+//shooting
+if cooldown > 0{cooldown--};
 if keyboard_check(vk_space) and cooldown <= 0{
 	audio_play_sound(snd_laser,2,false);
 	cooldown = 10;
@@ -50,4 +53,12 @@ if keyboard_check(vk_space) and cooldown <= 0{
 		}
 }
 
-if hits < 0{highscore_add(get_string("Name?",""),score); score = 0; room_goto(rm_menu);}
+
+
+//
+if hits < 0{
+	highscore_add(get_string("Name?",""),score);
+	score = 0;
+	audio_stop_all();
+	room_goto(rm_menu);
+}

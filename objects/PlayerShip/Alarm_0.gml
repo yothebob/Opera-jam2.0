@@ -1,1 +1,0 @@
-low_health_alarm = 0;
