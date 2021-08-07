@@ -4,7 +4,7 @@
     "path": "sprites/spr_mouse/spr_mouse.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": null,

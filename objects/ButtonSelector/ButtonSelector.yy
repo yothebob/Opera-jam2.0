@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_laser",
-    "path": "sprites/spr_laser/spr_laser.yy",
+    "name": "spr_button_tool",
+    "path": "sprites/spr_button_tool/spr_button_tool.yy",
   },
   "solid": true,
   "visible": false,

@@ -11,4 +11,5 @@ if up_key_press {
 
 with (instance_place(x,y,Button)){
 	selected = true;
+	
 }

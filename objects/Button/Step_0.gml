@@ -37,8 +37,15 @@ switch (button_event){
 // colliding with selected == selected and play sound
 if place_meeting(x,y,ButtonSelector){
 	id.selected = true;
+	id.selected_increment = 1;
+	if id.selected_increment > 0 and !id.played{
+		id.selected_increment -= 1;
+		id.played = true;
+		audio_play_sound(snd_select,1,false);
+	}
 }else{
 	id.selected = false;
+	id.played = false;
 }
 
 
@@ -52,9 +59,11 @@ if place_meeting(x,y,Mouse){
 
 // button gets alittle bigger when mouse hovering or selected
 if selected{
-	image_xscale = 1.3;
-	image_yscale = 1.3;
+	image_xscale = 1.2;
+	image_yscale = 1.2;
+	x = 180;
 }else{
 	image_xscale = 1;
 	image_yscale = 1;
+	x = 120;
 }

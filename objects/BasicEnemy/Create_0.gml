@@ -5,6 +5,10 @@ image_speed = 0;
 x = enemy_position[0];
 y = enemy_position[1];
 
+var size = random_range(.6,1.2);
+image_xscale = size;
+image_yscale = size;
+
 depth = 100;
 enemy_speed = 3.25;
 

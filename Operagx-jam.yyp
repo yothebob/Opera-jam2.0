@@ -9,6 +9,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"thing_to_add","path":"notes/thing_to_add/thing_to_add.yy",},"order":0,},
     {"id":{"name":"bg_stars","path":"sprites/bg_stars/bg_stars.yy",},"order":2,},
+    {"id":{"name":"spr_button_tool","path":"sprites/spr_button_tool/spr_button_tool.yy",},"order":9,},
     {"id":{"name":"rm_highscore","path":"rooms/rm_highscore/rm_highscore.yy",},"order":3,},
     {"id":{"name":"HighScore","path":"objects/HighScore/HighScore.yy",},"order":6,},
     {"id":{"name":"BasicEnemySpawner","path":"objects/BasicEnemySpawner/BasicEnemySpawner.yy",},"order":0,},
