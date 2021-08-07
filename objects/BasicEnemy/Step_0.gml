@@ -38,3 +38,6 @@ if player_cell[1] != enemy_cell[1]{
 if hits < 0{
 	id.image_speed = 1;
 }
+
+//debug 
+show_debug_message("enemy: " + string(get_cell));

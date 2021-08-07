@@ -41,7 +41,7 @@ if keyboard_check(vk_space) and cooldown <= 0{
 	with (instance_create_depth(x,y+60,1,Laser)){
 			parent = PlayerShip;
 			laser_cell = [other.player_foreground_cell[0],other.player_foreground_cell[1]];
-			bullet_offset = 3;
+			bullet_offset = 2;
 			move_to_point = put_in_background(laser_cell[0],laser_cell[1]);
 			starting_point = put_in_foreground(laser_cell[0],laser_cell[1]);
 			target = BasicEnemy;
@@ -62,3 +62,6 @@ if hits < 0{
 	audio_stop_all();
 	room_goto(rm_menu);
 }
+
+//debug
+show_debug_message("player: " + string(player_foreground_cell));
