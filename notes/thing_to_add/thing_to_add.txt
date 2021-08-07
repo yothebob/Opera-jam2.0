@@ -8,7 +8,7 @@ THINGS TO DO!!! - IN ORDER - ish
 
 
 
-
+how to fix laser shooting, dont round the cell translation but ceil round the laser cell vs the enemy cell
 
 
 be nice to have - 
