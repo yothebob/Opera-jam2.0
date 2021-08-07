@@ -8,6 +8,7 @@ if up_key_press {
 	y += move_distance;
 }
 
+
 with (instance_place(x,y,Button)){
 	selected = true;
 }

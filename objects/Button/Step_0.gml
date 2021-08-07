@@ -34,7 +34,7 @@ switch (button_event){
 
 
 
-// colliding with selected == selected
+// colliding with selected == selected and play sound
 if place_meeting(x,y,ButtonSelector){
 	id.selected = true;
 }else{
@@ -43,8 +43,15 @@ if place_meeting(x,y,ButtonSelector){
 
 
 
+//move selector to last button you had your mouse on
+if place_meeting(x,y,Mouse){
+	ButtonSelector.y = y;
+}
+
+
+
 // button gets alittle bigger when mouse hovering or selected
-if place_meeting(x,y,Mouse) or selected{
+if selected{
 	image_xscale = 1.3;
 	image_yscale = 1.3;
 }else{
