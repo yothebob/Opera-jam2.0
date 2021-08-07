@@ -4,7 +4,7 @@ move += 1;
 
 //move to background cell x, y values
 if PlayerShip.player_foreground_cell[0] != enemy_position[0] and PlayerShip.player_foreground_cell[0] != enemy_position[1]{
-	move_towards_point(PlayerShip.x, PlayerShip.y, enemy_speed);
+	move_towards_point(PlayerShip.x,PlayerShip.y, enemy_speed);
 }else{
 	speed = 0;
 	direction = 0;

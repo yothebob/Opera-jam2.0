@@ -1,12 +1,14 @@
 draw_self();
-draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+200 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
+draw_set_alpha(.5);
+draw_triangle_color(x-215 + (tilt*2.1),y+120 + (tilt*2.95),x-290 + (tilt*2.1),y+120 + (tilt*2.95),x-260 + (tilt*2.1),y+200  + (tilt*2.95),c_aqua,c_aqua,c_aqua,false);
+draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+100 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
 
 for (var i = 0; i < hits; i++){
-	draw_sprite_ext(spr_health,0,x+240 + (tilt*1.25) + (i*32), y + 230 - (tilt* 2.65),1,1,image_angle,c_white,.75);
+	draw_sprite_ext(spr_health,0,x+240 + (tilt*1.25) + (i*32), y + 130 - (tilt* 2.65),1,1,image_angle,c_white,.75);
 }
 
-
 if hits < 1 {
+	if !play_alarm{play_alarm= true;audio_play_sound(snd_alarm,0,true);};
 	low_health_alarm ++;
 	if low_health_alarm >= 60{
 		draw_set_alpha(.2);

@@ -1,4 +1,4 @@
-spawn += irandom(1);
+//spawn += irandom(1);
 
 if spawn == spawn_rate{
 	spawn = 0;

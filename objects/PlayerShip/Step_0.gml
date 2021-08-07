@@ -33,6 +33,7 @@ if cooldown > 0{cooldown--};
 //shooting
 
 if keyboard_check(vk_space) and cooldown <= 0{
+	audio_play_sound(snd_laser,2,false);
 	cooldown = 10;
 	with (instance_create_depth(x,y+60,1,Laser)){
 			parent = PlayerShip;
