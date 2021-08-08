@@ -8,4 +8,4 @@ THINGS TO DO!!! - IN ORDER - ish
 
 
 PLEASE FIX -- particles in front of enemies
-
+		- fix white fog flash does not work on html

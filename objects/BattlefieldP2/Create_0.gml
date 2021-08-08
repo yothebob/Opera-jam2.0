@@ -3,15 +3,15 @@ grid_size = 16;
 
 // padding so game does not take up entire screen
 padding = 1000;
+cameras = 1;
 
 //object the camera is following
 target = PlayerShip;
 
-if room == rm_pvp{
-	gamescreen_width = (room_width/2) - padding;
-}else{
-	gamescreen_width = room_width - padding;
-}
+//grid_offset
+grid_offset = room_width/2;
+
+gamescreen_width = (room_width/2) - padding;
 gamescreen_height = room_height - padding;
 
 //cell size for background

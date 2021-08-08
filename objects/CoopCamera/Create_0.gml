@@ -1,4 +1,4 @@
-playerlist = [instance_create_depth(1500,y,-1,PlayerShip),instance_create_depth(3000,y,-1,PlayerShip18)];
+/*playerlist = [instance_create_depth(1500,y,-1,PlayerShip),instance_create_depth(3000,y,-1,PlayerShipP2)];
 
 view_enabled = true;
 
@@ -22,3 +22,4 @@ for(var i =0 ; i < array_length(playerlist);i++){
 
 window_set_size(width*scale,height* scale);
 surface_resize(application_surface,width * scale, height * scale);
+*/

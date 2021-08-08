@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player 1 scripts",
-    "path": "folders/Scripts/Player 1 scripts.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "coordinates_to_foreground_cell",
+  "name": "put_in_foreground",
   "tags": [],
   "resourceType": "GMScript",
 }
