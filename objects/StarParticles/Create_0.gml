@@ -14,7 +14,7 @@ part_type_life(star_3d,50,100);
 // same but smaller
 star_3d_lines = part_type_create();
 part_type_shape(star_3d_lines,pt_shape_line);
-part_type_scale(star_3d_lines,.2,.2);
+part_type_scale(star_3d_lines,.15 ,.1);
 part_type_speed(star_3d_lines,.5,5,.5,0);
 part_type_direction(star_3d_lines,0,360,0,0);
 part_type_orientation(star_3d_lines,0,0,0,0,true);

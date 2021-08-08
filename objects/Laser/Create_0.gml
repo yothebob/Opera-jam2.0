@@ -7,8 +7,6 @@ laser_color = c_white;
 
 bullet_offset = 0;
 
-//image_blend = choose(c_aqua,c_yellow,c_fuchsia,c_maroon,c_green,c_purple,c_lime,c_teal);
-
 move_to_point = [];
 starting_point = [];
 

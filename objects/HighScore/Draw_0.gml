@@ -1,1 +1,1 @@
-draw_highscore(300,300,900,900);
+draw_highscore(450,110,1200,900);

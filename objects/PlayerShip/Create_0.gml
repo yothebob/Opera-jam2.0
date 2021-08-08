@@ -1,6 +1,6 @@
 player_speed = 7;
 player_foreground_cell = [ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2)];
-hits = 3;
+hits = 43;
 tilt = 0;
 cooldown = 0;
 low_health_alarm = 0;
