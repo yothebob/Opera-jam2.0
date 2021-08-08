@@ -64,4 +64,4 @@ if hits < 0{
 }
 
 //debug
-show_debug_message("player: " + string(player_foreground_cell));
+//show_debug_message("player: " + string(player_foreground_cell));
