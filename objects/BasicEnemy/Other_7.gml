@@ -1,2 +1,2 @@
-/// @description 
+//explosion
 instance_destroy(id);

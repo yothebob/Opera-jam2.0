@@ -1,9 +1,9 @@
 enemy_position = put_in_background(enemy_cell[0],enemy_cell[1]);
-shoot += 1;
+shoot += irandom(2);
 move += 1;
 
 //move to background cell x, y values
-if PlayerShip.player_foreground_cell[0] != enemy_position[0] and PlayerShip.player_foreground_cell[0] != enemy_position[1]{
+if ceil(PlayerShip.player_foreground_cell[0]) != ceil(enemy_position[0]) and ceil(PlayerShip.player_foreground_cell[0]) != ceil(enemy_position[1]){
 	move_towards_point(PlayerShip.x,PlayerShip.y, enemy_speed);
 }else{
 	speed = 0;
@@ -13,7 +13,7 @@ if PlayerShip.player_foreground_cell[0] != enemy_position[0] and PlayerShip.play
 //shooting
 if shoot >= shoot_rate{	
 		with (instance_create_depth(x,y,1,Laser)){
-			parent = BasicEnemy;
+			parent = FighterEnemy;
 			laser_cell = [other.enemy_cell[0],other.enemy_cell[1]];
 			move_to_point = put_in_foreground(laser_cell[0],laser_cell[1]);
 			starting_point = put_in_background(laser_cell[0],laser_cell[1]);
@@ -36,8 +36,6 @@ if player_cell[1] != enemy_cell[1]{
 
 
 if hits < 0{
-	id.image_speed = 1;
+	//id.image_speed = 1;
+	instance_destroy();
 }
-
-//debug 
-show_debug_message("enemy: " + string(get_cell));

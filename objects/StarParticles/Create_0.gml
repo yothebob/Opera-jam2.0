@@ -22,6 +22,7 @@ part_type_color1(star_3d_lines,c_white);
 part_type_alpha2(star_3d_lines,.25,1);
 part_type_life(star_3d_lines,50,100);
 
+
 pt_emit = part_emitter_create(part_star);
 
 space_dust_reds = part_type_create();

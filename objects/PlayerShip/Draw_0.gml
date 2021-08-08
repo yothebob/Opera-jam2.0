@@ -11,12 +11,21 @@ draw_set_alpha(1);
 
 
 
-//draw health
+//health color s
+if hits == 2{
+	var health_color = c_yellow
+}else if hits == 1{
+	var health_color = c_red
+}else{
+	var health_color = c_green;
+}
+
+//draw health/ projecting
 for (var i = 0; i < hits; i++){
-	draw_sprite_ext(spr_health,0,x+240 + (tilt*1.25) + (i*32), y + 130 - (tilt* 2.65),1,1,image_angle,c_white,.75);
+	draw_sprite_ext(spr_health,0,x+240 + (tilt*1.25) + (i*32), y + 130 - (tilt* 2.65),1,1,image_angle,health_color,1);
 }
 draw_set_alpha(.3);
-draw_triangle_color(x+220 + (tilt*1.25),y+150 - (tilt*2.65),x + 220 + (tilt*1.25) + (hits*32),y+150 - (tilt*2.65),x+260 + (tilt*1.9),y+210 - (tilt*2.65),c_green,c_green,c_green,false);
+draw_triangle_color(x+220 + (tilt*1.25),y+150 - (tilt*2.65),x + 220 + (tilt*1.25) + (hits*32),y+150 - (tilt*2.65),x+260 + (tilt*1.9),y+210 - (tilt*2.65),health_color,health_color,health_color,false);
 draw_set_alpha(1);
 
 

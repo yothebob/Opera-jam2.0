@@ -2,14 +2,19 @@
 image_blend = laser_color;
 
 
-if target == PlayerShip and instance_exists(BasicEnemy){
+if target == PlayerShip and instance_exists(Enemy){
 	player_cell = [PlayerShip.player_foreground_cell[0],PlayerShip.player_foreground_cell[1]];
 	target_cell = player_cell;
 	image_xscale += z_growth*100;
 	image_yscale += z_growth*100;
-}
-else if target == BasicEnemy and instance_exists(BasicEnemy){
-	target_cell = [BasicEnemy.enemy_cell[0],BasicEnemy.enemy_cell[1]];
+}/*else if target == PlayerShip and instance_exists(FighterEnemy){
+	player_cell = [PlayerShip.player_foreground_cell[0],PlayerShip.player_foreground_cell[1]];
+	target_cell = player_cell;
+	image_xscale += z_growth*100;
+	image_yscale += z_growth*100;
+}*/
+else if target == Enemy and instance_exists(Enemy){
+	target_cell = [Enemy.enemy_cell[0],Enemy.enemy_cell[1]];
 }
 
 if parent == PlayerShip{

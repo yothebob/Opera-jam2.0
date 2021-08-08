@@ -37,9 +37,7 @@ switch (button_event){
 // colliding with selected == selected and play sound
 if place_meeting(x,y,ButtonSelector){
 	id.selected = true;
-	id.selected_increment = 1;
-	if id.selected_increment > 0 and !id.played{
-		id.selected_increment -= 1;
+	if !id.played{
 		id.played = true;
 		audio_play_sound(snd_select,1,false);
 	}

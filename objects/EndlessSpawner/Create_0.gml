@@ -1,4 +1,4 @@
 /// @description 
 spawn_spawner = 0;
-spawn_rate = 400;
+spawn_rate = 200;
 difficulty = 0;

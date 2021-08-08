@@ -10,10 +10,10 @@ image_xscale = size;
 image_yscale = size;
 
 depth = 100;
-enemy_speed = 3.25;
+enemy_speed = 5.25;
 
 //shoot lasers
 shoot = 0;
-shoot_rate = 60;
+shoot_rate = 25;
 move = 0;
 hits = 1;
