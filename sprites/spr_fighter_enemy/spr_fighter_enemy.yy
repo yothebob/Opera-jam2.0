@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 10,
-  "bbox_right": 53,
-  "bbox_top": 25,
-  "bbox_bottom": 37,
+  "bbox_left": 9,
+  "bbox_right": 58,
+  "bbox_top": 13,
+  "bbox_bottom": 56,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -27,21 +27,53 @@
     {"compositeImage":{"FrameId":{"name":"c8ae935e-ebac-47d6-857f-5dd7d2a665c7","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"c8ae935e-ebac-47d6-857f-5dd7d2a665c7","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"c8ae935e-ebac-47d6-857f-5dd7d2a665c7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2c6625f2-412e-4a22-bd20-7e2e9ba17ad3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c6625f2-412e-4a22-bd20-7e2e9ba17ad3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"2c6625f2-412e-4a22-bd20-7e2e9ba17ad3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"83e5249a-1d02-4b89-94e1-13e6a2521e7c","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"83e5249a-1d02-4b89-94e1-13e6a2521e7c","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"83e5249a-1d02-4b89-94e1-13e6a2521e7c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"228dd3dc-5851-4421-b026-18d9ccb1a092","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"228dd3dc-5851-4421-b026-18d9ccb1a092","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"228dd3dc-5851-4421-b026-18d9ccb1a092","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58f211fb-cc2e-4008-ba85-e003f4d1f3a8","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58f211fb-cc2e-4008-ba85-e003f4d1f3a8","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"58f211fb-cc2e-4008-ba85-e003f4d1f3a8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9cbabc3a-203d-4a54-a67d-253c63766a37","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9cbabc3a-203d-4a54-a67d-253c63766a37","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"9cbabc3a-203d-4a54-a67d-253c63766a37","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a303f64f-fe52-4acb-92b5-01778286f704","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a303f64f-fe52-4acb-92b5-01778286f704","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"a303f64f-fe52-4acb-92b5-01778286f704","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8b7b1c12-99f3-473b-b94a-deaa015da084","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8b7b1c12-99f3-473b-b94a-deaa015da084","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"8b7b1c12-99f3-473b-b94a-deaa015da084","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6495b51d-6f71-4907-8409-96c4d1cddfb3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6495b51d-6f71-4907-8409-96c4d1cddfb3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"LayerId":{"name":"460b36fd-97ad-4832-963e-fb3c7a925ee5","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","name":"6495b51d-6f71-4907-8409-96c4d1cddfb3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_fighter_enemy","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 9.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4409bc1f-7ecd-4d1f-857d-819be950b5a2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8ae935e-ebac-47d6-857f-5dd7d2a665c7","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07b15343-ea67-4743-90d4-90924c90e4f7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c6625f2-412e-4a22-bd20-7e2e9ba17ad3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4ca92332-8a54-417b-a4d9-d88119e1c2ab","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"83e5249a-1d02-4b89-94e1-13e6a2521e7c","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff50ca7d-1096-4d13-9a5e-c58b3424378f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"228dd3dc-5851-4421-b026-18d9ccb1a092","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"09dec803-3605-4114-8e7a-c906ba3ecbdc","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58f211fb-cc2e-4008-ba85-e003f4d1f3a8","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8cf9f2a2-074e-40cc-81ad-c9e852b1bfd1","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cbabc3a-203d-4a54-a67d-253c63766a37","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e7cc5ebb-70ec-414c-8792-fa6b0a552e62","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a303f64f-fe52-4acb-92b5-01778286f704","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"972529ab-1ea0-40db-9717-814d4dce8393","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8b7b1c12-99f3-473b-b94a-deaa015da084","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"481a05cc-5a6f-48b8-b486-10d929878d4e","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6495b51d-6f71-4907-8409-96c4d1cddfb3","path":"sprites/spr_fighter_enemy/spr_fighter_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

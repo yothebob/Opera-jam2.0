@@ -36,6 +36,5 @@ if player_cell[1] != enemy_cell[1]{
 
 
 if hits < 0{
-	//id.image_speed = 1;
-	instance_destroy();
+	id.image_speed = 1;
 }

@@ -13,7 +13,7 @@ move_to_point = [];
 starting_point = [];
 
 parent = 0;
-hit_target = 2.75;// size the image gets before "hitting" target
+hit_target = 2.;// size the image gets before "hitting" target
 target = PlayerShip;
 
 laser_cell = []; 

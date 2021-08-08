@@ -17,3 +17,5 @@ shoot = 0;
 shoot_rate = 60;
 move = 0;
 hits = 1;
+
+hit_marker = false;

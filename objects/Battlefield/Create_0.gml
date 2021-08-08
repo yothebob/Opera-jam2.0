@@ -3,7 +3,9 @@ grid_size = 16;
 
 // padding so game does not take up entire screen
 padding = 1000;
-gamescreen_width = room_width - padding;
+cameras = 1;
+
+gamescreen_width = (room_width/cameras) - padding;
 gamescreen_height = room_height - padding;
 
 //cell size for background

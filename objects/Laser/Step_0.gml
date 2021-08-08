@@ -5,21 +5,16 @@ image_blend = laser_color;
 if target == PlayerShip and instance_exists(Enemy){
 	player_cell = [PlayerShip.player_foreground_cell[0],PlayerShip.player_foreground_cell[1]];
 	target_cell = player_cell;
-	image_xscale += z_growth*100;
-	image_yscale += z_growth*100;
-}/*else if target == PlayerShip and instance_exists(FighterEnemy){
-	player_cell = [PlayerShip.player_foreground_cell[0],PlayerShip.player_foreground_cell[1]];
-	target_cell = player_cell;
-	image_xscale += z_growth*100;
-	image_yscale += z_growth*100;
-}*/
+	image_xscale += z_growth*75;
+	image_yscale += z_growth*75;
+}
 else if target == Enemy and instance_exists(Enemy){
 	target_cell = [Enemy.enemy_cell[0],Enemy.enemy_cell[1]];
 }
 
 if parent == PlayerShip{
-	image_xscale -= z_growth*100;
-	image_yscale -= z_growth*100;
+	image_xscale -= z_growth*75;
+	image_yscale -= z_growth*75;
 }
 
 if not instance_exists(parent){
@@ -46,6 +41,7 @@ else{
 if image_xscale > hit_target and image_xscale < hit_target + .15{
 	if ceil(id.laser_cell[0]) == ceil(target_cell[0]) and ceil(id.laser_cell[1]) == ceil(target_cell[1]) and instance_exists(target){
 		target.hits -= 1;
+		target.hit_marker = true;
 		instance_destroy();
 	}else{
 		instance_destroy();

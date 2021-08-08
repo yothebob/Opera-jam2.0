@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Mechanics",
-    "path": "folders/Objects/Mechanics.yy",
+    "name": "PVP",
+    "path": "folders/Objects/PVP.yy",
   },
   "resourceVersion": "1.0",
   "name": "CoopCamera",
