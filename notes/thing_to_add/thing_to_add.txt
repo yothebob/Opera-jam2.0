@@ -1,9 +1,8 @@
 THINGS TO DO!!! - IN ORDER - ish
-- DRAWINGS!!! (Cockpit, Enemy ships, 2nd player ship, explosions,lasers, user interface)
+- DRAWINGS!!!  2nd player ship,lasers)
 - SOUNDS!!! ( background music, being hit)
 - add PVP
 - add resolution adjustment or mobile
-- add destroyer enemy
 - 
 
 

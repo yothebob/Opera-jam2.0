@@ -6,12 +6,12 @@ draw_self();
 draw_set_alpha(.3);
 draw_triangle_color(x-215 + (tilt*2.1),y+115 + (tilt*2.1),x-290 + (tilt*2.1),y+115 + (tilt*2.95),x-255 + (tilt*2.1),y+205  + (tilt*2.85),c_aqua,c_aqua,c_aqua,false);
 draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+100 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
-draw_text_ext_transformed_color(x-295 + (tilt*2.1),y+105 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
+draw_text_ext_transformed_color(x-292 + (tilt*2.1),y+102 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
 draw_set_alpha(1);	
 
 
 
-//health color s
+//health color 
 if hits == 2{
 	var health_color = c_yellow
 }else if hits == 1{

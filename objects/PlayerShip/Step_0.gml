@@ -36,6 +36,7 @@ if keyboard_check(ord("D")) and player_foreground_cell[0] < Battlefield.grid_siz
 //shooting
 if cooldown > 0{cooldown--};
 if keyboard_check(vk_space) and cooldown <= 0{
+	audio_sound_pitch(snd_laser,.75);
 	audio_play_sound(snd_laser,2,false);
 	cooldown = 10;
 	with (instance_create_depth(x,y+60,1,Laser)){
