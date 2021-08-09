@@ -5,6 +5,7 @@ THINGS TO DO!!! - IN ORDER - ish
 - add resolution adjustment or mobile
 - add dying/ win screen (draw a box over current room)
 - add screen shake when being hit, maybe add smoke when low health?
+- give enemies spawn animation so they dont just appear
 - add tilt for enemies
 - add ship flying animation to main menu
 -fix endless spawning (maybe one spawner with a "state machine" for ufos to fighters to destroyers)
