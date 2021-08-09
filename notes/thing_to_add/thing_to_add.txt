@@ -1,11 +1,14 @@
 THINGS TO DO!!! - IN ORDER - ish
-- DRAWINGS!!!  2nd player ship,lasers)
+- DRAWINGS!!!  2nd player ship,lasers, cover image)
 - SOUNDS!!! ( background music, being hit)
 - finish PVP (fix player 2 shooting, add particles for each player, add)
 - add resolution adjustment or mobile
 - add dying/ win screen (draw a box over current room)
+- add screen shake when being hit, maybe add smoke when low health?
 - add tilt for enemies
-- 
+- add ship flying animation to main menu
+-fix endless spawning (maybe one spawner with a "state machine" for ufos to fighters to destroyers)
+- name game
 
 
 PLEASE FIX -- particles in front of enemies
