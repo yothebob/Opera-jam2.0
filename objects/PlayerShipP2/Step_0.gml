@@ -37,7 +37,7 @@ if keyboard_check(vk_right) and player_foreground_cell[0] < BattlefieldP2.grid_s
 if cooldown > 0{cooldown--};
 if keyboard_check(vk_enter) and cooldown <= 0{
 	audio_play_sound(snd_laser,2,false);
-	cooldown = 10;
+	cooldown = shoot_rate;
 	with (instance_create_depth(x,y+60,1,LaserP2)){
 			parent = PlayerShipP2;
 			laser_cell = [other.player_foreground_cell[0],other.player_foreground_cell[1]];

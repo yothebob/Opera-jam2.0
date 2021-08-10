@@ -1,6 +1,11 @@
 draw_self();
 
-
+//draw red screen hit marker when being hit
+if hit_marker{
+	draw_set_alpha(.3);
+	draw_rectangle_color(0,0,room_width,room_height,c_red,c_red,c_red,c_red,false);
+	draw_set_alpha(1);
+}
 
 //score drawing
 draw_set_alpha(.3);

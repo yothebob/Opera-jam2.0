@@ -20,7 +20,7 @@ if not instance_exists(parent){
 //if ceil(id.laser_cell[0]) != ceil(target_cell[0]) or ceil(id.laser_cell[1]) != ceil(target_cell[1]) and instance_exists(target){
 	move_to_point = put_in_foreground_p2(laser_cell[0],laser_cell[1]);
 	starting_point = put_in_background_p2(laser_cell[0],laser_cell[1]);
-	if point_distance(move_to_point[0],move_to_point[1],starting_point[0],starting_point[1]) <10{
+	if point_distance(move_to_point[0],move_to_point[1],starting_point[0],starting_point[1]) <50{
 		move_towards_point(PlayerShipP2.x,PlayerShipP2.y,z_speed);
 	}
 else{
