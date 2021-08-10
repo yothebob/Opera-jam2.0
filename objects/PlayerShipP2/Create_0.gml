@@ -1,10 +1,11 @@
 player_speed = 7;
 player_foreground_cell = [ceil(BattlefieldP2.grid_size/2),ceil(BattlefieldP2.grid_size/2)];
 
-hits = 3;
+hits = 5;
 tilt = 0;
 cooldown = 0;
 shoot_rate = 20;
+hit_marker = false;
 
 low_health_alarm = 0;
 flash_rate = 45;

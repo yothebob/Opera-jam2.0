@@ -1,6 +1,6 @@
 
 if room == rm_space or room == rm_pvp{
-	particle_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
+	particle_location = put_in_background_p2(ceil(BattlefieldP2.grid_size/2),ceil(BattlefieldP2.grid_size/2));
 	direction = point_direction(x,y,particle_location[0],particle_location[1]);
 }
 

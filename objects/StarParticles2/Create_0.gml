@@ -1,5 +1,5 @@
 part_star = part_system_create();
-part_system_depth(part_star,11);
+part_system_depth(part_star,1);
 
 // star particles spreading circular from center to outsides
 star_3d = part_type_create();
@@ -55,7 +55,7 @@ part_type_life(space_dust_whites,300,600);
 
 //following the center of the background
 if room == rm_space or room == rm_pvp{
-	particle_location = put_in_background(ceil(Battlefield.grid_size/2),ceil(Battlefield.grid_size/2));
+	particle_location = put_in_background_p2(ceil(BattlefieldP2.grid_size/2),ceil(BattlefieldP2.grid_size/2));
 	x = particle_location[0];
 	y = particle_location[1];
 }else{

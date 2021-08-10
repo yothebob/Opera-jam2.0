@@ -9,7 +9,7 @@ var size = random_range(.6,1.2);
 image_xscale = size;
 image_yscale = size;
 
-depth = 100;
+depth = 10;
 enemy_speed = 5.25;
 
 //shoot lasers

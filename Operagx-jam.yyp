@@ -36,6 +36,7 @@
     {"id":{"name":"Battlefield","path":"objects/Battlefield/Battlefield.yy",},"order":0,},
     {"id":{"name":"PlayerShip","path":"objects/PlayerShip/PlayerShip.yy",},"order":1,},
     {"id":{"name":"Laser","path":"objects/Laser/Laser.yy",},"order":2,},
+    {"id":{"name":"StarParticles2","path":"objects/StarParticles2/StarParticles2.yy",},"order":9,},
     {"id":{"name":"Player2Pawn","path":"objects/Player2Pawn/Player2Pawn.yy",},"order":4,},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},"order":6,},
     {"id":{"name":"Player1Pawn","path":"objects/Player1Pawn/Player1Pawn.yy",},"order":5,},

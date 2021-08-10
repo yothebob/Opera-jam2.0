@@ -47,9 +47,7 @@ if not instance_exists(parent){
 //hitting the player
 if image_xscale > hit_target and image_xscale < hit_target + .15{
 	if target == PlayerShip or target == PlayerShipP2{
-		show_debug_message("true")
 		if ceil(id.laser_cell[0]) == ceil(target_cell[0]) and ceil(id.laser_cell[1]) == ceil(target_cell[1]) and instance_exists(target){
-			show_debug_message("it should work")
 			target.hits -= 1;
 			target.hit_marker = true;
 			instance_destroy();
@@ -58,10 +56,11 @@ if image_xscale > hit_target and image_xscale < hit_target + .15{
 		}
 	}
 	else if place_meeting(x,y,target) and instance_exists(target){
+		
 		target.hits -= 1;
 		target.hit_marker = true;
 		instance_destroy();
-	}
+	}/*
 	else if place_meeting(x,y,Player1Pawn) and instance_exists(Player1Pawn){
 		PlayerShip.hits -= 1;
 		PlayerShip.hit_marker = true;
@@ -71,7 +70,7 @@ if image_xscale > hit_target and image_xscale < hit_target + .15{
 		PlayerShipP2.hits -= 1;
 		PlayerShipP2.hit_marker = true;
 		instance_destroy();
-	}
+	}*/
 	else{
 		instance_destroy();
 	}

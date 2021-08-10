@@ -1,12 +1,17 @@
 draw_self();
 
-
+//draw red screen hit marker when being hit
+if hit_marker{
+	draw_set_alpha(.3);
+	draw_rectangle_color(0,0,room_width,room_height,c_red,c_red,c_red,c_red,false);
+	draw_set_alpha(1);
+}
 
 //score drawing
 draw_set_alpha(.3);
 draw_triangle_color(x-215 + (tilt*2.1),y+115 + (tilt*2.1),x-290 + (tilt*2.1),y+115 + (tilt*2.95),x-255 + (tilt*2.1),y+205  + (tilt*2.85),c_aqua,c_aqua,c_aqua,false);
 draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+100 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
-draw_text_ext_transformed_color(x-295 + (tilt*2.1),y+105 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
+draw_text_ext_transformed_color(x-295 + (tilt*2.1),y+102 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
 draw_set_alpha(1);	
 
 
