@@ -49,6 +49,7 @@
     {"id":{"name":"StarParticles","path":"objects/StarParticles/StarParticles.yy",},"order":2,},
     {"id":{"name":"put_in_background","path":"scripts/put_in_background/put_in_background.yy",},"order":2,},
     {"id":{"name":"spr_destroyer_enemy","path":"sprites/spr_destroyer_enemy/spr_destroyer_enemy.yy",},"order":11,},
+    {"id":{"name":"music_background","path":"sounds/music_background/music_background.yy",},"order":3,},
     {"id":{"name":"EndlessSpawner","path":"objects/EndlessSpawner/EndlessSpawner.yy",},"order":1,},
     {"id":{"name":"coordinates_to_foreground_cell","path":"scripts/coordinates_to_foreground_cell/coordinates_to_foreground_cell.yy",},"order":1,},
     {"id":{"name":"SoundBar","path":"objects/SoundBar/SoundBar.yy",},"order":8,},
