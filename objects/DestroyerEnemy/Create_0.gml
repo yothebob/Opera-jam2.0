@@ -5,7 +5,7 @@ image_speed = 0;
 x = enemy_position[0];
 y = enemy_position[1];
 
-var size = random_range(.6,1.2);
+var size = random_range(.9,1.4);
 image_xscale = size;
 image_yscale = size;
 

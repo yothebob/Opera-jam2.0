@@ -24,8 +24,8 @@ switch (button_event){
 			room_goto(rm_highscore);
 		}
 		break;
-	case "Coop":
-		button_label = "Co-op";
+	case "pvp":
+		button_label = "Player  Vs. Player";
 		if mouse_check_button_pressed(mb_left) and place_meeting(x,y,Mouse)or selected and keyboard_check_pressed(vk_enter){
 			room_goto(rm_pvp);
 		}

@@ -1,2 +1,4 @@
-draw_self();
-draw_text(20,20,string(x) + "," + string(y));
+
+if keyboard_check(vk_escape){
+	draw_circle_color(x,y,take_to_menu/2,c_ltgray,c_ltgray,false);
+}
