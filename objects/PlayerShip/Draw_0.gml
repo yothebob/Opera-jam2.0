@@ -54,8 +54,8 @@ draw_set_alpha(1);
 
 
 //gun aiming
-if instance_exists(BasicEnemy){
-	var autoaim = instance_nearest(x,y,BasicEnemy);
+if instance_exists(Enemy){
+	var autoaim = instance_nearest(x,y,Enemy);
 }else{var autoaim = PlayerShip;}
 
 var xx = coordinates_to_background_cell(autoaim.x,autoaim.y);
@@ -67,16 +67,3 @@ if point_distance(x,y,autoaim.x,autoaim.y) < 300{
 }
 draw_rectangle_color(x-rectangle_offset,y-rectangle_offset,x+rectangle_offset,y+rectangle_offset,color,color,color,color,true);
 
-
-// game over
-if hits < 0{
-	if room == rm_space{
-		highscore_add(get_string("Name?",""),score);
-		game_over_screen("Game Over","Score : " + string(score));
-		with(instance_create_depth(x,y,-10000,Button)){
-			image_index = 1;
-			button_event = "Menu";
-		}
-		score = 0;
-	}
-}

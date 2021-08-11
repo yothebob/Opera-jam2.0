@@ -54,9 +54,9 @@ draw_set_alpha(1);
 
 
 //gun aiming
-if instance_exists(BasicEnemy){
-	var autoaim = instance_nearest(x,y,BasicEnemy);
-}else{var autoaim = PlayerShip;}
+if instance_exists(Enemy){
+	var autoaim = instance_nearest(x,y,Enemy);
+}else{var autoaim = PlayerShipP2;}
 
 var xx = coordinates_to_background_cell(autoaim.x,autoaim.y);
 var rectangle_offset = 15;

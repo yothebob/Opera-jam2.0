@@ -13,7 +13,7 @@ alarm_stop_flash = flash_rate;
 play_alarm = false;
 
 
-score = 0;
+score = 1000;
 image_blend = c_red;
 
 var ship_location = put_in_foreground_p2(player_foreground_cell[0],player_foreground_cell[1]);

@@ -18,8 +18,7 @@ if tilt > 0{
 
 
 if hits > 0{
-	
-	score += 1;
+	if room == rm_space{score=1000}
 	
 	//player movement
 	if keyboard_check(ord("W")) and player_foreground_cell[1] > 1 {
@@ -64,5 +63,25 @@ if hits > 0{
 				laser_color = c_lime;
 				z_speed = point_distance(move_to_point[0],move_to_point[1],x,y)/10;
 			}
+	}
+}
+
+
+// game over
+if hits < 0{
+	if room == rm_space{
+		highscore_add(get_string("Name?",""),score);
+		//game_over_screen("Game Over","Score : " + string(score));
+		//with(instance_create_depth(x,y,-10000,Button)){
+		//	image_index = 1;
+		//	button_event = "Menu";
+		//}
+		score = 0;
+		audio_stop_sound(snd_alarm);
+		room_goto(rm_menu);
+	}
+	if room == rm_pvp{
+		audio_stop_sound(snd_alarm);
+		room_goto(rm_menu);
 	}
 }

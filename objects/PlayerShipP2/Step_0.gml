@@ -1,4 +1,4 @@
-score += 1;
+//score += 1;
 
 if hit_marker{
 	audio_sound_pitch(snd_laser,.4);
@@ -68,8 +68,8 @@ if keyboard_check(vk_enter) and cooldown <= 0{
 
 //
 if hits < 0{
-	highscore_add(get_string("Name?",""),score);
-	score = 0;
+	//highscore_add(get_string("Name?",""),score);
+	//score = 0;
 	audio_stop_all();
 	room_goto(rm_menu);
 }

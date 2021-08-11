@@ -1,1 +1,1 @@
-button_event = "pvp";
+button_event = "Pvp";

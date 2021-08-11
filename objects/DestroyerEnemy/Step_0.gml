@@ -12,11 +12,11 @@ if PlayerShip.player_foreground_cell[0] != enemy_position[0] and PlayerShip.play
 
 //shooting
 if shoot >= shoot_rate{	
-	for (var i = 0; i < 5; i++){
-		for (var j = 0; j < 5; j++){
+	for (i = 0; i < 5; i++){
+		for (j = 0; j < 5; j++){
 			with (instance_create_depth(x,y,1,Laser)){
 				parent = DestroyerEnemy;
-				laser_cell = [other.enemy_cell[0]+i,other.enemy_cell[1]+j];
+				laser_cell = [DestroyerEnemy.enemy_cell[0]+DestroyerEnemy.i,DestroyerEnemy.enemy_cell[1]+DestroyerEnemy.j];
 				move_to_point = put_in_foreground(laser_cell[0],laser_cell[1]);
 				starting_point = put_in_background(laser_cell[0],laser_cell[1]);
 				target = PlayerShip;

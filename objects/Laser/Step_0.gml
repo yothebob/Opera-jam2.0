@@ -35,7 +35,6 @@ if not instance_exists(parent){
 }
 
 //moving from background cell position to foreground cell position
-//if ceil(id.laser_cell[0]) != ceil(target_cell[0]) or ceil(id.laser_cell[1]) != ceil(target_cell[1]) and instance_exists(target){
 	id.move_to_point = put_in_foreground(laser_cell[0],laser_cell[1]);
 	id.starting_point = put_in_background(laser_cell[0],laser_cell[1]);
 	if point_distance(id.move_to_point[0],id.move_to_point[1],id.starting_point[0],id.starting_point[1]) <50{

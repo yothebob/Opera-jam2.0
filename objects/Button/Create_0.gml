@@ -6,3 +6,9 @@ played = true;
 
 image_index = 0;
 image_speed = 0;
+
+//for inputting name for highscore
+name = "";
+cursor = "|"
+delay = 20;
+alarm[0] = delay;
