@@ -13,7 +13,8 @@ flash_rate = 45;
 alarm_stop_flash = flash_rate;
 play_alarm = false;
 
-
+pause = false;
+screen_fade = .1;
 score = 0;
 
 var ship_location = put_in_foreground(player_foreground_cell[0],player_foreground_cell[1]);

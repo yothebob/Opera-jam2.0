@@ -14,7 +14,9 @@ play_alarm = false;
 
 
 score = 1000;
+screen_fade = .1;
 image_blend = c_red;
+pause = false;
 
 var ship_location = put_in_foreground_p2(player_foreground_cell[0],player_foreground_cell[1]);
 x = ship_location[0];

@@ -67,12 +67,8 @@ if keyboard_check(vk_enter) and cooldown <= 0{
 
 
 //
-if hits < 0{
-	//highscore_add(get_string("Name?",""),score);
-	//score = 0;
-	audio_stop_all();
-	room_goto(rm_menu);
+if hits < 0 and pause == false{
+	pause = true;
+	audio_stop_sound(snd_alarm);
+	alarm[0] = 30;
 }
-
-//debug
-//show_debug_message("player: " + string(player_foreground_cell));

@@ -18,7 +18,7 @@ if tilt > 0{
 
 
 if hits > 0{
-	if room == rm_space{score=1000}
+	if room == rm_pvp{score=1000;}else{score += 1;}
 	
 	//player movement
 	if keyboard_check(ord("W")) and player_foreground_cell[1] > 1 {
@@ -68,20 +68,15 @@ if hits > 0{
 
 
 // game over
-if hits < 0{
+if hits < 0 and pause == false{// go to end screen
 	if room == rm_space{
-		highscore_add(get_string("Name?",""),score);
-		//game_over_screen("Game Over","Score : " + string(score));
-		//with(instance_create_depth(x,y,-10000,Button)){
-		//	image_index = 1;
-		//	button_event = "Menu";
-		//}
-		score = 0;
+		pause = true;
 		audio_stop_sound(snd_alarm);
-		room_goto(rm_menu);
+		alarm[0] = 30;
 	}
-	if room == rm_pvp{
+	if room == rm_pvp{// go to end screen
+		pause = true;
 		audio_stop_sound(snd_alarm);
-		room_goto(rm_menu);
+		alarm[1] = 30;
 	}
 }

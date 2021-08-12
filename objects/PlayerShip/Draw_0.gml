@@ -67,3 +67,12 @@ if point_distance(x,y,autoaim.x,autoaim.y) < 300{
 }
 draw_rectangle_color(x-rectangle_offset,y-rectangle_offset,x+rectangle_offset,y+rectangle_offset,color,color,color,color,true);
 
+//screen fade out
+if hits < 0 or pause == true{
+	draw_set_alpha(screen_fade);
+	screen_fade += .1;
+	draw_set_color(c_black);
+	draw_rectangle(0,0,room_width,room_height,false);
+	draw_set_alpha(1);
+	draw_set_color(make_color_rgb(0,191,243));
+}

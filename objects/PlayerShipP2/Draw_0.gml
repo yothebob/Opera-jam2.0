@@ -10,8 +10,8 @@ if hit_marker{
 //score drawing
 draw_set_alpha(.3);
 draw_triangle_color(x-215 + (tilt*2.1),y+115 + (tilt*2.1),x-290 + (tilt*2.1),y+115 + (tilt*2.95),x-255 + (tilt*2.1),y+205  + (tilt*2.85),c_aqua,c_aqua,c_aqua,false);
-draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+100 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
-draw_text_ext_transformed_color(x-295 + (tilt*2.1),y+102 + (tilt*2.95),string(score) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
+draw_text_ext_transformed_color(x-290 + (tilt*2.1),y+100 + (tilt*2.95),string(1000) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,1);
+draw_text_ext_transformed_color(x-295 + (tilt*2.1),y+102 + (tilt*2.95),string(1000) + " Km",10,100,1.5,1.5,image_angle,c_aqua,c_aqua,c_aqua,c_aqua,.5);
 draw_set_alpha(1);	
 
 
@@ -66,3 +66,14 @@ if point_distance(x,y,autoaim.x,autoaim.y) < 300{
 	draw_rectangle_color(autoaim.x-rectangle_offset/2,autoaim.y-rectangle_offset/2,autoaim.x+rectangle_offset/2,autoaim.y+rectangle_offset/2,color,color,color,color,true);
 }
 draw_rectangle_color(x-rectangle_offset,y-rectangle_offset,x+rectangle_offset,y+rectangle_offset,color,color,color,color,true);
+
+
+//screen fade out
+if hits < 0 or pause == true{
+	draw_set_alpha(screen_fade);
+	screen_fade += .1;
+	draw_set_color(c_black);
+	draw_rectangle(0,0,room_width,room_height,false);
+	draw_set_alpha(1);
+	draw_set_color(make_color_rgb(0,191,243));
+}
