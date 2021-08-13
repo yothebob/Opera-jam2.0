@@ -19,7 +19,7 @@ if not instance_exists(parent){
 // if laser cell is different then player cell assign a direction and speed
 	id.move_to_point = put_in_foreground_p2(laser_cell[0],laser_cell[1]);
 	id.starting_point = put_in_background_p2(laser_cell[0],laser_cell[1]);
-	if point_distance(id.move_to_point[0],id.move_to_point[1],id.starting_point[0],id.starting_point[1]) <50{
+	if point_distance(id.move_to_point[0],id.move_to_point[1],id.starting_point[0],id.starting_point[1]) <150{
 		move_towards_point(parent.x,parent.y,z_speed);
 	}
 else{
